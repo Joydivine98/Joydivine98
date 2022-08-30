@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport"content="with=device-width,initial-scale=1.0">
+        <title>FOODLA RESTUARANT</title>
+        <link rel="stylesheet" href="FOODLA.css">
+ <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?
+        family=poppins:wght@100;200;300;400;600;700&display=swap"rel="stylesheet">
+        <link rel="stylesheet"href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+        </head>
+    <body>
+        <section class="header">
+        <nav>
+            <a href="Foodla.html"><img src="happy-chef-logo-cooking-restaurant-food-symbol-194682894.jpg"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa fa-times"onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="">HOME</a></li>
+                    <li><a href="">CONTACT US</a></li>
+                    <li><a href="">ABOUT US</a></li>
+                    <li><a href="">ORDER</a></li>
+                    <li><a href="">RATE</a></li>
+                    <li><a href="">HELP</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars"onclick="showMenu()"></i>
+        </nav>
+        <div class="text-box">
+            <h1>We bring the best and tasty food to you,introducing FOODLA.</h1>
+            <p>Enriching,nutritious,nourishing,tasty,spicy food,<br/>enjoy our delicious and tasty food we sell.</p>
+            <a href=""class="hero-btn">Patronize FOODLA today</a>
+        </div>     
+       </section>
+<!----Food---->
+<section class="Food">
+    <h1>Food and price</h1>
+    <p>Food is what we eat that gives us energy.</p>
+    <div class="row">
+    <div class="food-col">
+    <h3>Hamburger</h3>
+    <p>#3,500</p>
+    </div>
+    <div class="food-col">
+    <h3>Pizza</h3>
+    <p>#2,500</p>
+    </div>
+    <div class="food-col">
+        <img src="png-transparent-delicious-food-food-salad-vegetable-salad-thumbnail.png">
+    <h3>Vegetables</h3>
+    <p>#4,500</p>
+    </div>
+</section>
+<section class="deliciousmeal">
+<h1>Our delicious meal</h1>
+<p>we make good delicious,nourishing meals here.</p>
+<div class="row">
+<div class="deliciousmeal-col">
+    <img src="Easy-Chicken-Noodle-Soup-Recipe-1200-1.jpg">
+    <div class="layer">
+        <h3>Soup</h3>
+    </div>
+</div>
+<div class="deliciousmeal-col">
+    <img src="hamburger-cheese.jpg">
+    <div class="layer">
+        <h3>Burger</h3>
+    </div>
+</div>
+<div class="deliciousmeal-col">
+    <img src="png-transparent-fast-food-hamburger-sushi-pizza-fast-food-food-breakfast-fast-food-restaurant.png">
+    <div class="layer">
+        <h3>Snacks</h3>
+    </div>
+</div>
+</div>
+</section>
+<!----Aboutus-->
+<section class="Aboutus">
+    <h1>Aboutus</h1>
+    <p>We are mindful of our customers,safety and hygiene.We are steady in delivery.</p>
+    <div class="row">
+        <div class="Aboutus-col">
+            <img src="food-handling-safety-and-hygiene6050ed8693bec.jpg">
+            <h3>Good Hygiene</h3>
+            <p>Being clean and healthy is our priority.</p>
+        </div>
+    
+    <div class="Aboutus-col">
+        <img src="chef-hands-keep-wok-fire-260nw-1758966962.jpg">
+        <h3>Good Chef</h3>
+        <p>our chefs are outstanding in their job.</p>
+    </div>
+<div class="Aboutus-col">
+    <img src="4-steps-banner-revised_2.jpg_=45978">
+    <h3>Healthy Cooking</h3>
+    <p>Washing of hands,food items and time management are our culture. </p>
+</div>
+</div>
+</section>
+<!-----------RATE------>
+<section class="Rate">
+    <h1>What our customers says</h1>
+    <p>We are mindful of our customers,safety and hygiene.We are steady in delivery.</p>
+    <div class="row">
+        <div class="Rate-col">
+            <img src="file:///C:/Users/uer/Pictures/New%20Folder%20(7)/GIRL.png">
+            <div>
+            <p>Being clean and healthy is Foodla first priority, i love this app..</p>
+            <h3>Alexandra berkley</h3>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star"></i>
+            <i class="fa fa-star-o"></i>
+        </div>
+    </div>
+    <div class="Rate-col">
+        <img src="BOY.png">
+        <div>
+        <p>I love this app.... Foodla is the best in delivery.</p>
+        <h3>Williams brain</h3>
+        <i class ="fa  fa-star"></i>
+        <i class ="fa  fa-star"></i>
+        <i class ="fa  fa-star"></i>
+        <i class ="fa  fa-star"></i>
+        <i class ="fa  fa-star-half-o"></i>
+    </div>
+</div>
+    </div>
+</section>
+<!-----call to place order----->
+<section class="ctpo">
+    <h1>Place an order now!! get you delicious meals here <br> anywhere in the world.</h1>
+    <a href=""class="hero-btn">Contact us</A>
+</section>
+<!-----footer----->
+<section class="footer">
+    <h4>Help</h4>
+    <p>Need any help our technicians are here for you.</p>
+    <div class="icons">
+        <i class="fa fa-facebook"></i>
+        <i class="fa fa-twitter"></i>
+        <i class="fa fa-instagram"></i>
+        <i class="fa fa-linkedin"></i>
+    </div>
+    <p>Made with<i class="fa fa-heart-o"></i>by Foodla</p>
+</section>
+
+       <!----javascript for toogle menu---->
+       <script>
+           var navLinks=document.getElementById("navLinks");
+         function showMenu(){
+             navLinks.style.right="0";
+             function hideMenu(){
+             navLinks.style.right="-200px";
+         }
+
+           }
+       </script>
+        </body>
+        </html>
